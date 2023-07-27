@@ -3,7 +3,7 @@ function submitQuestion() {
   if (question.trim() === "") return;
 
   // Ganti 'YOUR_OPENAI_API_KEY' dengan API Key yang Anda peroleh setelah mendaftar dan mendapatkan akses ke API ChatGPT
-  const apiKey = "YOUR_OPENAI_API_KEY";
+  const apiKey = "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";
   const apiUrl = "https://api.openai.com/v1/engines/davinci/completions";
 
   // Kirim permintaan POST ke API ChatGPT menggunakan fetch
